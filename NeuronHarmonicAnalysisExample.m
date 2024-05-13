@@ -25,7 +25,7 @@ intfilesTubulinOutput = fullfile(string(natsortfiles({intfilesTubulinOutput.fold
 
 pixel2micron = 0.325; % micron/pixel size ratio for current microscope setup
 somaRfacList = [1]; % soma radius scale factor for testing effects on spatial harmonics;
-volfacList = [1]; % test scaling soma v;
+volfacList = [1]; % test scaling soma volume;
 areafacList = [1]; % test scaling soma surface area;
 
 colNum = 30+6+8+12+1 ; % +6 for RTTList; +8 for 3 somaRfactor x 3 somavolumefactor, +1 otherAnkPeak
