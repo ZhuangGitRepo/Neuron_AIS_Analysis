@@ -1,5 +1,5 @@
 function [containGC,idx_gc] = detectGC(fileID,data,dist,neibrs,neibrs_soma,d)
-% This function detect if the neuron contains noticeable growth cone region from the SWC file
+% This function detects if the neuron contains noticeable growth cone region from the SWC file
 % by setting a threshold for density of skeletal points in  the region.
 % neuron contains a growth cone need to be checked manually for quality control
 idx_gc = [];
